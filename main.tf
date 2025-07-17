@@ -13,6 +13,6 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name      = "rayc-basic-pipeline"
+  name      = "rayc-basic-pipeline-test2"
   location  = "westus2"
 }
