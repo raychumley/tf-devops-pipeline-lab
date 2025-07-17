@@ -12,7 +12,12 @@ provider "azurerm" {
   subscription_id = "d52a6d4f-8a6b-4e23-a011-dbb0c8d7eddc"
 }
 
-resource "azurerm_resource_group" "rg" {
+resource "azurerm_resource_group" "rg2" {
   name      = "rayc-basic-pipeline-test2"
+  location  = "westus2"
+}
+
+resource "azurerm_resource_group" "rg3" {
+  name      = "rayc-basic-pipeline-test3"
   location  = "westus2"
 }
